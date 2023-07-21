@@ -15,7 +15,7 @@
 <c:out value="${num}"/><br/>
 ${num}<br/>
 <!--배열지정 -->
-<c:set var="arr" value="${[10,20,30,40,50]}" />
+<c:set var="arr" value="10,20,30,40,50" />
 <c:out value="${arr}"/><br/>
 <c:out value="${arr[2]}"/><br/>
 <!--if문 -->
